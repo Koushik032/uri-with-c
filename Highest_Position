@@ -1,0 +1,36 @@
+#include<stdio.h>
+int main()
+{
+    int i,max,array[100];
+
+    for(i=0; i<100;i++)
+    {
+        scanf("%d",&array[i]);
+
+
+    }
+
+    max=array[0];
+
+    for(i=1;i<100;i++)
+    {
+        if(max<array[i])
+        {
+            max=array[i];
+        }
+    }
+    printf("%d\n",max);
+
+    int pos;
+
+    for(i=0;i<100;i++)
+    {
+        if(max==array[i])
+        {
+            pos=i+1;
+            break;
+        }
+    }
+    printf("%d\n",pos);
+    return 0;
+}
