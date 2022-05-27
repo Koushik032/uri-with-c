@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+    int spent_time,avg_speed;
+
+    scanf("%d %d",&spent_time,&avg_speed);
+    int distance= (spent_time*avg_speed);
+
+
+    printf("%.3f\n",distance/12.00);
+
+
+    return 0;
+}
