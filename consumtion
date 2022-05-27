@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+    int x;
+    float y,avg_consumtion;
+
+    scanf("%d %f",&x,&y);
+
+    avg_consumtion = (x / y);
+
+    printf("%.3f km/l\n",avg_consumtion);
+
+    return 0;
+}
