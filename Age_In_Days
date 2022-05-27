@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main()
+{
+    int n,yr,mnth,day;
+
+    scanf("%d",&n);
+
+    yr=n/365;
+
+    mnth=(n%365)/30;
+
+    day=(n%365)%30;
+
+    printf("%d ano(s)\n",yr);
+
+    printf("%d mes(es)\n",mnth);
+
+    printf("%d dia(s)\n",day);
+
+
+    return 0;
+}
